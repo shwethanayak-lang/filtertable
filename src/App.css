@@ -27,6 +27,26 @@
 .App-link {
   color: #61dafb;
 }
+table, th,tr, td{
+  border: 1px solid black;
+   border-collapse: collapse;
+  padding: 5px; 
+}
+table {
+  border-spacing: 15px;
+ width:100%;
+ margin-top:1em;
+}
+th{
+    background-color: gainsboro;
+}
+
+h1, #myinput{
+    margin-left:5em;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
